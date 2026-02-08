@@ -61,6 +61,12 @@ python Main.py
 
 ```
 
+# 💻 Application Screen
+[![Watch the video](assets/image.png)](https://drive.google.com/file/d/10rDnCweB19cRZqb9MRT-FQ76719EFq9J/view?usp=sharing)
+
+> ⚠ Note: You can click image to See **`Project Demo`**
+
+
 ## 📜 Requirements
 
 * Python 3.13.x
