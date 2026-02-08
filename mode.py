@@ -11,7 +11,7 @@ class Mode:
         page.theme_mode = ThemeMode.DARK if Mode.is_dark_mode else ThemeMode.LIGHT
         Button.icon=Icons.DARK_MODE if Mode.is_dark_mode else Icons.LIGHT_MODE
         state = {"switch_state": Mode.is_dark_mode}
-        with open(r"D:\Python Projects\CALCULATOR\switch_state.json", "w+") as f:
+        with open(r"D:\Python\Python Projects\CALCULATOR\switch_state.json", "w+") as f:
             json.dump(state, f)
         
         
