@@ -20,7 +20,8 @@ class Mode:
     @staticmethod
     def load(page:Page , Button :IconButton):
         Mode.is_dark_mode
-        with open(r"D:\Python Projects\CALCULATOR\switch_state.json","r") as f:
+        
+        with open(r"D:\Python\Python Projects\CALCULATOR\switch_state.json","r") as f:
             state = json.load(f)
             Mode.is_dark_mode = state["switch_state"]
             if state["switch_state"] == True:
